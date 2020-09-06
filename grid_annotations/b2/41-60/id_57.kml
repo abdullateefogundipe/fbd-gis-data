@@ -2,18 +2,6 @@
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
 	<name>id_57.kml</name>
-	<Schema name="id_57" id="S_id_57_DDDDD">
-		<SimpleField type="double" name="id_2"><displayName>&lt;b&gt;id&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="left"><displayName>&lt;b&gt;left&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="top"><displayName>&lt;b&gt;top&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="right"><displayName>&lt;b&gt;right&lt;/b&gt;</displayName>
-</SimpleField>
-		<SimpleField type="double" name="bottom"><displayName>&lt;b&gt;bottom&lt;/b&gt;</displayName>
-</SimpleField>
-	</Schema>
 	<StyleMap id="falseColor40">
 		<Pair>
 			<key>normal</key>
@@ -232,21 +220,6 @@
   <tr><td><b>top</b></td><td>$[id_59/top]</td></tr>
   <tr><td><b>right</b></td><td>$[id_59/right]</td></tr>
   <tr><td><b>bottom</b></td><td>$[id_59/bottom]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
-	<Style id="falseColor105">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_57/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_57/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_57/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_57/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_57/bottom]</td></tr>
 </table>]]></text>
 		</BalloonStyle>
 		<PolyStyle>
@@ -584,16 +557,6 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<StyleMap id="falseColor104">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#falseColor105</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#falseColor106</styleUrl>
-		</Pair>
-	</StyleMap>
 	<Style id="falseColor4313">
 		<BalloonStyle>
 			<text><![CDATA[<table border="0">
@@ -959,45 +922,9 @@
 			<fill>0</fill>
 		</PolyStyle>
 	</Style>
-	<Style id="falseColor106">
-		<BalloonStyle>
-			<text><![CDATA[<table border="0">
-  <tr><td><b>id</b></td><td>$[id_57/id_2]</td></tr>
-  <tr><td><b>left</b></td><td>$[id_57/left]</td></tr>
-  <tr><td><b>top</b></td><td>$[id_57/top]</td></tr>
-  <tr><td><b>right</b></td><td>$[id_57/right]</td></tr>
-  <tr><td><b>bottom</b></td><td>$[id_57/bottom]</td></tr>
-</table>]]></text>
-		</BalloonStyle>
-		<PolyStyle>
-			<colorMode>random</colorMode>
-			<fill>0</fill>
-		</PolyStyle>
-	</Style>
 	<Folder id="layer 0">
 		<name>id_57</name>
-		<Placemark>
-			<styleUrl>#falseColor104</styleUrl>
-			<ExtendedData>
-				<SchemaData schemaUrl="#S_id_57_DDDDD">
-					<SimpleData name="id_2">57</SimpleData>
-					<SimpleData name="left">4.73037</SimpleData>
-					<SimpleData name="top">9.25309</SimpleData>
-					<SimpleData name="right">4.83037</SimpleData>
-					<SimpleData name="bottom">9.15309</SimpleData>
-				</SchemaData>
-			</ExtendedData>
-			<gx:balloonVisibility>1</gx:balloonVisibility>
-			<Polygon>
-				<outerBoundaryIs>
-					<LinearRing>
-						<coordinates>
-							4.730366201738785,9.153089037407177,0 4.830366201738761,9.153089037407177,0 4.830366201738761,9.253089037407154,0 4.730366201738785,9.253089037407154,0 4.730366201738785,9.153089037407177,0 
-						</coordinates>
-					</LinearRing>
-				</outerBoundaryIs>
-			</Polygon>
-		</Placemark>
+		<open>1</open>
 		<Placemark>
 			<name>1</name>
 			<styleUrl>#falseColor4013</styleUrl>
